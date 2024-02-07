@@ -7,7 +7,22 @@
 body{
     font-family: "Merriweather" , serif;
     background-color: #ebf2ff ; 
+    background-image: url(./81f3ff974d82520780078ba1cfbd453a1583259680\ \(1\).avif);
     
+}
+button__primary{
+    background-color:rgb(196, 32, 32); 
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    color: #ebf2ff;
+    cursor: pointer;
+
+}
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .navbar{
@@ -28,9 +43,9 @@ width: 100%;
 .nav__item{
 
  background-color:rgb(196, 32, 32); 
- padding: 5px;
- border-radius: 3px;
- border-style: none;
+ padding: 12px;
+ border-radius: 6px;
+ border: none;
  color: #ebf2ff;
  cursor: pointer;
 }
@@ -53,27 +68,78 @@ width: 100%;
     margin-top: 15px;
     text-decoration: none;
    padding-right: 50px;
-    
-
 }
+.Zom__div{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    display: inline-block;
+}
+.Zom__img{
+    margin-top: 200px;
+    margin-left: 600px;
+    width: 150px;
+    height: 60px;
+ 
+}
+.Zom__text{
+    margin-left: 500px;
+    color: #ebf2ff;
+    width: 450px;
 
+} 
+.hero__image__container{
+    width: 100%;
+}
+.hero__image{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0,0,0.25);
+}
+.hero__text{
+     font-size: 30px;
+     margin-top: 20px 0;
+     color: #ebf2ff;
+}
 
 @media(min-width:768px){
     .navbar{
         justify-content: space-between;
         padding: 5px 30px ;
+    } 
+    .hero__container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        
     }
 }
 @media(min-width:1020px){
+    .container{
+        max-width: 900px;
+    }
     .navbar__brand{
         width: 150px;
         justify-content: space-between;
         padding: 10px 30px ;
     }
-    .nav__item{
+       .button__primary{
         padding: 20px;
         font-size: 20px;
         
     }
+    .hero__description{
+        width: 100%;
+    }
+    /* .hero__text{
+        font-size: 50px;
+    } */
 
+}
+@media(min-width:1400px){
+    .container{
+      max-width: 1250px;
+      
+    }
 }

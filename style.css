@@ -41,7 +41,22 @@ width: 100%;
     width: 100%;
     height: 600px;
     background-image: url('./81f3ff974d82520780078ba1cfbd453a1583259680\ \(1\).avif');
+    
 }
+.nav__parent{
+    display: flex;
+    gap: 50px;
+    justify-content:flex-end;
+}
+.nav__header{
+    color: #ebf2ff;
+    margin-top: 15px;
+    text-decoration: none;
+   padding-right: 50px;
+    
+
+}
+
 
 @media(min-width:768px){
     .navbar{
